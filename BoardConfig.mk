@@ -6,6 +6,9 @@
 TARGET_BOARD_PLATFORM := msm8992
 TARGET_BOOTLOADER_BOARD_NAME := robin
 
+# Use Snapdragon LLVM, if available
+TARGET_USE_SDCLANG := true
+
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_ABI := arm64-v8a
